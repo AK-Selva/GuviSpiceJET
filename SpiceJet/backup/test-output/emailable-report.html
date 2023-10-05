@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">15</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">74,044</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">PageRunner.LoginRunner</td><td><a href="#m0">validLoginDetails</a></td><td rowspan="1">1696393465210</td><td rowspan="1">1097</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">PageRunner.HomePageRunner</td><td><a href="#m1">ChecksignupTitle</a></td><td rowspan="1">1696393406124</td><td rowspan="1">3151</td></tr><tr class="passedeven"><td><a href="#m2">HomePageMenuLinks</a></td><td rowspan="1">1696393397774</td><td rowspan="1">7732</td></tr><tr class="passedeven"><td><a href="#m3">SignupClick</a></td><td rowspan="1">1696393405525</td><td rowspan="1">584</td></tr><tr class="passedeven"><td><a href="#m4">checkSignupDetails</a></td><td rowspan="1">1696393409284</td><td rowspan="1">66</td></tr><tr class="passedodd"><td rowspan="2">PageRunner.LoginRunner</td><td><a href="#m5">loginPage</a></td><td rowspan="1">1696393452898</td><td rowspan="1">2447</td></tr><tr class="passedodd"><td><a href="#m6">validLoginDetailsInvalid</a></td><td rowspan="1">1696393455361</td><td rowspan="1">9846</td></tr><tr class="passedeven"><td rowspan="9">PageRunner.SignupRunner</td><td><a href="#m7">Firstname</a></td><td rowspan="1">1696393410119</td><td rowspan="1">632</td></tr><tr class="passedeven"><td><a href="#m8">Mobilenumber</a></td><td rowspan="1">1696393414014</td><td rowspan="1">1332</td></tr><tr class="passedeven"><td><a href="#m9">NameTitle</a></td><td rowspan="1">1696393409366</td><td rowspan="1">749</td></tr><tr class="passedeven"><td><a href="#m10">Passwords</a></td><td rowspan="1">1696393421036</td><td rowspan="1">980</td></tr><tr class="passedeven"><td><a href="#m11">SubmittheSignup</a></td><td rowspan="1">1696393422023</td><td rowspan="1">30529</td></tr><tr class="passedeven"><td><a href="#m12">closewindow</a></td><td rowspan="1">1696393452554</td><td rowspan="1">334</td></tr><tr class="passedeven"><td><a href="#m13">doB</a></td><td rowspan="1">1696393411397</td><td rowspan="1">2612</td></tr><tr class="passedeven"><td><a href="#m14">email</a></td><td rowspan="1">1696393415350</td><td rowspan="1">5682</td></tr><tr class="passedeven"><td><a href="#m15">lastname</a></td><td rowspan="1">1696393410760</td><td rowspan="1">632</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">PageRunner.LoginRunner#validLoginDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;css-76zvg2 r-homxoj r-ubezar r-1ozqkpa&quot; dir=&quot;auto&quot; style=&quot;font-family: inherit;&quot;&gt;...&lt;/div&gt; is not clickable at point (1067, 266). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n r-1awozwy r-tn79kl r-1pi2tsx r-1777fci r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu r-184en5c&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=117.0.5938.132)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc944f6fc77df2e9a44aa357dae1371, clickElement {id=3A6052D6D55E3A4E2FB6BE0679AF2069_element_244}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57191/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbc944f6fc77df2e9a44aa357dae1371)] -&gt; xpath: //div[@class=&apos;css-76zvg2 r-homxoj r-ubezar r-1ozqkpa&apos;][normalize-space()=&apos;Mobile Number&apos;]]
+Session ID: fbc944f6fc77df2e9a44aa357dae1371
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Pages.Login.validLoginDetails(Login.java:34)
+	at PageRunner.LoginRunner.validLoginDetails(LoginRunner.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">PageRunner.HomePageRunner#ChecksignupTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">PageRunner.HomePageRunner#HomePageMenuLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">PageRunner.HomePageRunner#SignupClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">PageRunner.HomePageRunner#checkSignupDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">PageRunner.LoginRunner#loginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">PageRunner.LoginRunner#validLoginDetailsInvalid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">PageRunner.SignupRunner#Firstname</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">PageRunner.SignupRunner#Mobilenumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">PageRunner.SignupRunner#NameTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">PageRunner.SignupRunner#Passwords</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">PageRunner.SignupRunner#SubmittheSignup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">PageRunner.SignupRunner#closewindow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">PageRunner.SignupRunner#doB</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">PageRunner.SignupRunner#email</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">PageRunner.SignupRunner#lastname</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T11:23:06 IST" name="Suite" finished-at="2023-10-05T11:24:55 IST" duration-ms="109860">
+    <groups>
+    </groups>
+    <test started-at="2023-10-05T11:23:06 IST" name="Test" finished-at="2023-10-05T11:24:55 IST" duration-ms="109860">
+      <class name="PageRunner.LoginRunner">
+        <test-method signature="loginPage()[pri:1, instance:PageRunner.LoginRunner@5afa3c9]" started-at="2023-10-05T11:24:11 IST" name="loginPage" finished-at="2023-10-05T11:24:14 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@5afa3c9]" started-at="2023-10-05T11:24:14 IST" name="screenShot" finished-at="2023-10-05T11:24:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=LoginRunner.loginPage()[pri:1, instance:PageRunner.LoginRunner@5afa3c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="validLoginDetails()[pri:3, instance:PageRunner.LoginRunner@5afa3c9]" started-at="2023-10-05T11:24:14 IST" name="validLoginDetails" finished-at="2023-10-05T11:24:23 IST" duration-ms="9187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginDetails -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@5afa3c9]" started-at="2023-10-05T11:24:23 IST" name="screenShot" finished-at="2023-10-05T11:24:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginDetails status=SUCCESS method=LoginRunner.validLoginDetails()[pri:3, instance:PageRunner.LoginRunner@5afa3c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.LoginRunner -->
+      <class name="PageRunner.FlightTripsRunner">
+        <test-method signature="OneWaytrip()[pri:1, instance:PageRunner.FlightTripsRunner@909217e]" started-at="2023-10-05T11:24:23 IST" name="OneWaytrip" finished-at="2023-10-05T11:24:38 IST" duration-ms="14403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneWaytrip -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.FlightTripsRunner@909217e]" started-at="2023-10-05T11:24:38 IST" name="screenShot" finished-at="2023-10-05T11:24:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OneWaytrip status=SUCCESS method=FlightTripsRunner.OneWaytrip()[pri:1, instance:PageRunner.FlightTripsRunner@909217e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="TwoWaytrip()[pri:1, instance:PageRunner.FlightTripsRunner@909217e]" started-at="2023-10-05T11:24:38 IST" name="TwoWaytrip" finished-at="2023-10-05T11:24:55 IST" duration-ms="17937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwoWaytrip -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.FlightTripsRunner@909217e]" started-at="2023-10-05T11:24:55 IST" name="screenShot" finished-at="2023-10-05T11:24:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TwoWaytrip status=SUCCESS method=FlightTripsRunner.TwoWaytrip()[pri:1, instance:PageRunner.FlightTripsRunner@909217e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.FlightTripsRunner -->
+      <class name="PageRunner.HomePageRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:06 IST" name="setUp" finished-at="2023-10-05T11:23:08 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageMenuLinks()[pri:1, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:09 IST" name="HomePageMenuLinks" finished-at="2023-10-05T11:23:15 IST" duration-ms="6632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageMenuLinks -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:15 IST" name="screenShot" finished-at="2023-10-05T11:23:15 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageMenuLinks status=SUCCESS method=HomePageRunner.HomePageMenuLinks()[pri:1, instance:PageRunner.HomePageRunner@7f485fda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="SignupClick()[pri:2, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:15 IST" name="SignupClick" finished-at="2023-10-05T11:23:16 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupClick -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:16 IST" name="screenShot" finished-at="2023-10-05T11:23:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignupClick status=SUCCESS method=HomePageRunner.SignupClick()[pri:2, instance:PageRunner.HomePageRunner@7f485fda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="ChecksignupTitle()[pri:3, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:16 IST" name="ChecksignupTitle" finished-at="2023-10-05T11:23:20 IST" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChecksignupTitle -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:20 IST" name="screenShot" finished-at="2023-10-05T11:23:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChecksignupTitle status=SUCCESS method=HomePageRunner.ChecksignupTitle()[pri:3, instance:PageRunner.HomePageRunner@7f485fda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="checkSignupDetails()[pri:4, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:20 IST" name="checkSignupDetails" finished-at="2023-10-05T11:23:20 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignupDetails -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:23:20 IST" name="screenShot" finished-at="2023-10-05T11:23:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSignupDetails status=SUCCESS method=HomePageRunner.checkSignupDetails()[pri:4, instance:PageRunner.HomePageRunner@7f485fda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="closeDriverObjects()[pri:0, instance:PageRunner.HomePageRunner@7f485fda]" started-at="2023-10-05T11:24:56 IST" name="closeDriverObjects" finished-at="2023-10-05T11:24:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverObjects -->
+      </class> <!-- PageRunner.HomePageRunner -->
+      <class name="PageRunner.SignupRunner">
+        <test-method signature="NameTitle()[pri:1, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:20 IST" name="NameTitle" finished-at="2023-10-05T11:23:20 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameTitle -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:20 IST" name="screenShot" finished-at="2023-10-05T11:23:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NameTitle status=SUCCESS method=SignupRunner.NameTitle()[pri:1, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="Firstname()[pri:2, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:20 IST" name="Firstname" finished-at="2023-10-05T11:23:21 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstname -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:21 IST" name="screenShot" finished-at="2023-10-05T11:23:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Firstname status=SUCCESS method=SignupRunner.Firstname()[pri:2, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="lastname()[pri:3, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:21 IST" name="lastname" finished-at="2023-10-05T11:23:21 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastname -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:21 IST" name="screenShot" finished-at="2023-10-05T11:23:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lastname status=SUCCESS method=SignupRunner.lastname()[pri:3, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="doB()[pri:4, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:21 IST" name="doB" finished-at="2023-10-05T11:23:22 IST" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doB -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:22 IST" name="screenShot" finished-at="2023-10-05T11:23:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doB status=SUCCESS method=SignupRunner.doB()[pri:4, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="Mobilenumber()[pri:5, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:22 IST" name="Mobilenumber" finished-at="2023-10-05T11:23:38 IST" duration-ms="15589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilenumber -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:38 IST" name="screenShot" finished-at="2023-10-05T11:23:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mobilenumber status=SUCCESS method=SignupRunner.Mobilenumber()[pri:5, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="email()[pri:6, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:38 IST" name="email" finished-at="2023-10-05T11:23:39 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:39 IST" name="screenShot" finished-at="2023-10-05T11:23:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=email status=SUCCESS method=SignupRunner.email()[pri:6, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="Passwords()[pri:7, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:39 IST" name="Passwords" finished-at="2023-10-05T11:23:40 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Passwords -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:40 IST" name="screenShot" finished-at="2023-10-05T11:23:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Passwords status=SUCCESS method=SignupRunner.Passwords()[pri:7, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="SubmittheSignup()[pri:8, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:23:40 IST" name="SubmittheSignup" finished-at="2023-10-05T11:24:11 IST" duration-ms="30721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmittheSignup -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:24:11 IST" name="screenShot" finished-at="2023-10-05T11:24:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SubmittheSignup status=SUCCESS method=SignupRunner.SubmittheSignup()[pri:8, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="closewindow()[pri:9, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:24:11 IST" name="closewindow" finished-at="2023-10-05T11:24:11 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@72cc7e6f]" started-at="2023-10-05T11:24:11 IST" name="screenShot" finished-at="2023-10-05T11:24:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closewindow status=SUCCESS method=SignupRunner.closewindow()[pri:9, instance:PageRunner.SignupRunner@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.SignupRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
